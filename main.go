@@ -1,6 +1,9 @@
 package main
 
-func main() {
-	println("hello world")
+import (
+	"learn-go/No1"
+)
 
+func main() {
+	No1.InterfaceTest()
 }
