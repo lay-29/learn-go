@@ -1,9 +1,10 @@
 package main
 
 import (
-	"learn-go/No3"
+	"learn-go/No6"
 )
 
 func main() {
-	No3.EnumTest()
+
+	No6.GoroutineTest()
 }

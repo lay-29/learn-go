@@ -16,7 +16,7 @@ const (
 type Color int
 
 const (
-	ColorRed Color = iota
+	ColorRed Color = 10 + iota*2
 	ColorBlue
 	ColorGreen
 )
@@ -93,7 +93,7 @@ func EnumTest() {
 	fmt.Println("userType: ", userType)
 	fmt.Println("userType: ", userType.String())
 
-	userJson, _ := userType.MarshalJSON()
+	userJson, _ := userType.MarshalJSON() //警告：告可能为 nil 的指针被取消引用的实例。
 	fmt.Println("userType Json Byte: ", string(userJson))
 
 	data, _ := json.Marshal(userType)
