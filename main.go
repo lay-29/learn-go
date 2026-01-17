@@ -1,9 +1,9 @@
 package main
 
 import (
-	"learn-go/No1"
+	"learn-go/No3"
 )
 
 func main() {
-	No1.InterfaceTest()
+	No3.EnumTest()
 }
