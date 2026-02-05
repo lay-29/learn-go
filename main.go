@@ -1,7 +1,9 @@
 package main
 
-import "learn-go/No7"
+import (
+	"learn-go/No8"
+)
 
 func main() {
-	No7.Test()
+	No8.ChiDemoTest()
 }
